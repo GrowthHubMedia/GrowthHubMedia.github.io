@@ -1,0 +1,18 @@
+{
+  "agencyName": "Local Growth Marketing",
+  "primaryCTA": "Get a Free Strategy Call",
+  "phone": "(555) 555-0123",
+  "email": "hello@localgrowthmarketing.com",
+  "address": "123 Main St, YourTown, ST 12345",
+  "formspreeEndpoint": "",
+  "analytics": {
+    "provider": "none",
+    "plausibleDomain": "",
+    "ga4Id": ""
+  },
+  "social": {
+    "facebook": "#",
+    "instagram": "#", 
+    "linkedin": "#"
+  }
+}
