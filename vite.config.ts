@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ mode }) => ({
-  base: '/pacificadvisors.github.io/',
+  base: '/GrowthHubMedia.github.io/',
   server: {
     host: "::",
     port: 8080,
