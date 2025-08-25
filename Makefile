@@ -11,7 +11,6 @@ clean:
 # Deploy: build, clean, move dist contents to root, and push
 # WARNING: This will overwrite your project files in the repo root with the build output!
 deploy: build
-	cp -r dist/* .
 	git add .
 	git commit -m "Deploy to GitHub Pages"
 	git push
