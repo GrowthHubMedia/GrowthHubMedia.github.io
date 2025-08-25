@@ -10,6 +10,9 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ mode }) => ({
   base: '/',
+  build: {
+    outDir: 'docs',
+  },
   server: {
     host: "::",
     port: 8080,

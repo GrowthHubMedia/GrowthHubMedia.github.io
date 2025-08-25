@@ -1,18 +1,20 @@
 # Makefile for deploying Vite app to GitHub Pages (user/organization site)
 
-# Build the project
-build:
+# Build the project to docs folder
+build: clean
 	npm run build
 
-# Clean all files except dist, node_modules, .git, and Makefile
+# Clean docs folder
 clean:
-	rm -rf !(dist|node_modules|.git|Makefile|.gitignore|package.json|package-lock.json|bun.lockb|README.md|postcss.config.js|tailwind.config.ts|tsconfig.app.json|tsconfig.json|tsconfig.node.json|vite.config.ts|public|src|components.json|eslint.config.js|index.html)
+	rm -rf docs/*
 
-# Deploy: build, clean, move dist contents to root, and push
-# WARNING: This will overwrite your project files in the repo root with the build output!
+# Deploy: build and push docs folder
 deploy: build
-	git add .
-	git commit -m "Deploy to GitHub Pages"
+	git add docs
+	git commit -m "Deploy to GitHub Pages (docs folder)"
 	git push
+
+run-local:
+	npx serve docs
 
 .PHONY: build clean deploy
