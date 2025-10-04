@@ -32,7 +32,7 @@ const stats = [
 
 const testimonials = [
   {
-    quote: "Local Growth Marketing transformed our online presence. We went from 5 leads per month to over 40!",
+    quote: "CM Effective Marketing transformed our online presence. We went from 5 leads per month to over 40!",
     author: "Sarah Johnson",
     business: "Johnson's Plumbing Services",
     location: "Austin, TX"

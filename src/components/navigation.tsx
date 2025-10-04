@@ -39,7 +39,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="font-heading font-bold text-xl text-primary">
-            Local Growth Marketing
+            CM Effective Marketing
           </div>
 
           {/* Desktop Navigation */}

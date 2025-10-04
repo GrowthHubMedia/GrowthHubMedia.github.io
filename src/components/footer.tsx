@@ -25,7 +25,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="font-heading font-bold text-2xl mb-4">
-              Local Growth Marketing
+              CM Effective Marketing
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               Helping local businesses grow through data-driven marketing strategies, 
@@ -65,7 +65,7 @@ export function Footer() {
             <h4 className="font-heading font-semibold text-lg mb-4">Contact</h4>
             <div className="space-y-2 text-primary-foreground/80">
               <p>(555) 555-0123</p>
-              <p>hello@localgrowthmarketing.com</p>
+              <p>hello@efficientmarketingagency.com</p>
               <p>123 Main St<br />YourTown, ST 12345</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm mb-4 md:mb-0">
-            © 2024 Local Growth Marketing. All rights reserved.
+            © 2024 CM Effective Marketing. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">

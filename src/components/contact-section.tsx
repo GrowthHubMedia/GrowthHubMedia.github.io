@@ -200,7 +200,7 @@ export function ContactSection() {
                   </div>
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-secondary" />
-                    <span className="text-muted-foreground">hello@localgrowthmarketing.com</span>
+                    <span className="text-muted-foreground">hello@efficientmarketingagency.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-secondary" />

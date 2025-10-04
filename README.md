@@ -1,4 +1,4 @@
-# Local Growth Marketing - Agency Website
+# CM Effective Marketing - Agency Website
 
 A modern, responsive marketing website built for local business marketing agencies. Features a professional design with conversion-focused sections and smooth animations.
 
